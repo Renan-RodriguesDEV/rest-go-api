@@ -1,0 +1,7 @@
+CREATE DATABASE users IF NOT EXISTS (
+    id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    age INT NOT NULL,
+    weight FLOAT NOT NULL,
+    height FLOAT NOT NULL
+);
